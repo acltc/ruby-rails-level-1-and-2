@@ -23,10 +23,9 @@ If you don't have Ruby/Rails installed on your computer, we recommend using [Nit
 
 * Next, find the `views` folder inside the `app` folder. Inside there you should see a subfolder called `pages` (this was generated along with the controller). Add a new file to that subfolder called `about.html`
 * Add your own html to that file! One example:
-
-      <h1>About me</h1>
+```
       <p>I am a person. Not a robot. Even though I never get the captchas right.</p>
-
+```
 * That should be all the code you need! Let’s get the webserver running in the terminal with: `rails server`
 * To exit the rails server at any time (don’t do this just yet), hold the following two keys down together: Control C
 * In Nitrous, click on the ‘Preview’ tab and click on the option which says ‘Port 3000’
